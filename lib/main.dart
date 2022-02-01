@@ -36,8 +36,8 @@ class _HomePageState extends State<HomePage> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-          Image(image: AssetImage('nigar/1.jpeg'),
-          //Image(image: NetworkImage('https://cdn.pixabay.com/photo/2018/04/04/13/38/nature-3289812_960_720.jpg'),
+          //Image(image: AssetImage('nigar/1.jpeg'),
+          Image(image: NetworkImage('https://cdn.pixabay.com/photo/2018/04/04/13/38/nature-3289812_960_720.jpg'),
             height: 90,
             width: MediaQuery.of(context).size.width,
             fit: BoxFit.cover,
